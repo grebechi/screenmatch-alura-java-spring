@@ -118,4 +118,8 @@ public class Serie {
         episodios.forEach(e -> e.setSerie(this));
         this.episodios = episodios;
     }
+
+    public Long getId() {
+        return id;
+    }
 }
